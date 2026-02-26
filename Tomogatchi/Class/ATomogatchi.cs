@@ -5,7 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-    abstract class ATomogatchi
+public abstract class ATomogatchi
+{
+    public string Name { get; set; }
+    public string EmotionState { get; set; }
+    public int Stats { get; set; }
+
+    public ATomogatchi(string name, string emotionState, int stats)
     {
+        Name = name;
+        EmotionState = emotionState;
+        Stats = stats;
     }
+}
+ 
+
 
