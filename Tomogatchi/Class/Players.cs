@@ -51,7 +51,7 @@ namespace Tamagotchi.Class
             }
             else
             {
-                Console.WriteLine(Messages.INVENTORY_EMPTY);// Mensaje de inventario vacío en UI
+                Console.WriteLine(Messages.INVENTORY_EMPTY);// Mensaje de inventario vacío 
             }
         }
 

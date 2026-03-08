@@ -1,15 +1,71 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Tomogatchi.Enums;
+using Tomogatchi.Interfaces;
+using Tomogatchi.UI;
 
-namespace Tomogatchi.Class
-{   public class CCats : ATomogatchi
+namespace Tamagotchi.Class
+{
+    public class CCat : ATamagotchi, IEateable, ISleepable, IPlayable
     {
-        public CCats(string name, int stats, string emotionState = "Happy") : base(name, emotionState, stats)
+        public CCat(string name) : base(name)
         {
+        }
 
+        public void Eat()
+        {
+            Console.WriteLine(Messages.ACTION_FEED, Name);
+            Stats.Hunger -= 30; // el -30 es porque el hambre disminuye al comer de la clase Stats
+            UpdateEmotion();
+            MakeSound();
+        }
+
+        public void Sleep()
+        {
+            Console.WriteLine(Messages.ACTION_SLEEP, Name);
+            Stats.Energy += 40; // si energy por default es 50, al dormir se vuelve 90
+            UpdateEmotion();
+            MakeSound();
+        }
+
+        public void Play()
+        {
+            // If de comportamientos
+            if (Emotion == EmotionState.Tired)
+            {
+                Console.WriteLine(Messages.TIRED_SLEEP, Name);
+                Sleep();
+                return;
+            }
+
+            if (Emotion == EmotionState.Angry)
+            {
+                Console.WriteLine(Messages.ANGRY_IGNORE, Name);
+                return;
+            }
+
+            if (Emotion == EmotionState.Sad)
+            {
+                Console.WriteLine(Messages.SAD_REJECT, Name);
+                return;
+            }
+
+            if (Emotion == EmotionState.Sick)
+            {
+                Console.WriteLine(Messages.SICK_NEED, Name);
+                return;
+            }
+
+            Console.WriteLine(Messages.ACTION_PLAY, Name);
+            Console.WriteLine(Messages.HAPPY_PLAY, Name);
+            Stats.Energy -= 20;
+            Stats.Hunger += 15;
+            UpdateEmotion();
+            MakeSound();
+        }
+
+        public override void MakeSound()
+        {
+            Console.WriteLine("¡Miau! soy un buen michi 🐱");
         }
     }
 }

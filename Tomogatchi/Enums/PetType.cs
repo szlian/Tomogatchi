@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Tomogatchi.Enums
 {
-    internal class PetType
+    public enum PetType
     {
+        Cat,
+        Dog,
+        Chick
     }
 }

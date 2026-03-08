@@ -10,7 +10,7 @@ namespace Tomogatchi.UI
     {
         // El welcoming xd
         public const string WELCOME = "-------TAMAGOTCHI-------";
-        public const string CHOOSE_PED = "CHOOSE YOUR PET";
+        public const string CHOOSE_PET = "CHOOSE YOUR PET";
         public const string OPTION_CAT = "1. CAT";
         public const string OPTION_DOG = "2. DOG";
         public const string OPTION_CHICK = "3. CHICK";

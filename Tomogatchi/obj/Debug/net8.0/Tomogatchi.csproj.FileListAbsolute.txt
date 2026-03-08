@@ -3,3 +3,13 @@ C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\Tomogatchi.Asse
 C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\Tomogatchi.AssemblyInfo.cs
 C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\Tomogatchi.csproj.CoreCompileInputs.cache
 C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\Tomogatchi.sourcelink.json
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\bin\Debug\net8.0\Tomogatchi.exe
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\bin\Debug\net8.0\Tomogatchi.deps.json
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\bin\Debug\net8.0\Tomogatchi.runtimeconfig.json
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\bin\Debug\net8.0\Tomogatchi.dll
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\bin\Debug\net8.0\Tomogatchi.pdb
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\Tomogatchi.dll
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\refint\Tomogatchi.dll
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\Tomogatchi.pdb
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\Tomogatchi.genruntimeconfig.cache
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\ref\Tomogatchi.dll

@@ -8,5 +8,6 @@ namespace Tomogatchi.Interfaces
 {
     internal interface IPlayable
     {
+        void Play();
     }
 }
