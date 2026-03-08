@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tomogatchi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+591ace77f70b243b9dd52b91484e38a9c5881761")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2645eca0049e51e1a1f11222660121eb96e808fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tomogatchi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tomogatchi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
