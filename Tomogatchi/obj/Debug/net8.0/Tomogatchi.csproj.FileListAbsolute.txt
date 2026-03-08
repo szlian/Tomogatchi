@@ -1,0 +1,5 @@
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\Tomogatchi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\Tomogatchi.AssemblyInfoInputs.cache
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\Tomogatchi.AssemblyInfo.cs
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\Tomogatchi.csproj.CoreCompileInputs.cache
+C:\Users\SZ\source\repos\Tomogatchis\Tomogatchi\obj\Debug\net8.0\Tomogatchi.sourcelink.json
